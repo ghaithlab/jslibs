@@ -1,6 +1,7 @@
 //test 123   awwab
-var repoLinkJsDeliver = "https://cdn.jsdelivr.net/gh/ghaithlab/jslibs@mainScene2/homeScreenScene/";
-var repoLinkGH = "https://raw.githubusercontent.com/ghaithlab/jslibs/mainScene2/homeScreenScene/";
+var repoVersion = "mainScene3"
+var repoLinkJsDeliver = "https://cdn.jsdelivr.net/gh/ghaithlab/jslibs@" + repoVersion + "/homeScreenScene/";
+var repoLinkGH = "https://raw.githubusercontent.com/ghaithlab/jslibs/"+  repoVersion +"/homeScreenScene/";
 var repoLink = repoLinkJsDeliver;
 
 

@@ -46,9 +46,6 @@ var imgs = new Array()
                     $("form.move input[name=duration]:radio").change(function () {
                         scene.duration($(this).val());
                     });
-                </script>
-      
-      <script>
         //second section// 
     var images1 = [
     "6339c1a53b99ec57be6f6fa9_watch179.webp",
@@ -97,10 +94,8 @@ imgs = new Array()
                     $("form.move input[name=duration]:radio").change(function () {
                         scene.duration($(this).val());
                     });
-                </script>
 
-<script>
-    // third section
+// third section
     var images2 = [
     "6339c1a53b99ec57be6f6fa9_watch179.webp",
     "6339c1a57b04fda667d73a04_watch180.webp",
@@ -148,9 +143,6 @@ imgs = new Array()
                     $("form.move input[name=duration]:radio").change(function () {
                         scene.duration($(this).val());
                     });
-                </script>
-
-<script>
     var images3 = [
    
     "6339c1ae13726553b709a5d4_watch197.webp",

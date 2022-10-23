@@ -1,4 +1,4 @@
-var repoVersion = "23oct2130"
+var repoVersion = "23oct2140"
 var repoLinkJsDeliver = "https://cdn.jsdelivr.net/gh/ghaithlab/jslibs@" + repoVersion + "/single_watch_animations/uploads/emotion_full_diamond/";
 var repoLinkGH = "https://raw.githubusercontent.com/ghaithlab/jslibs/"+  repoVersion +"uploads/emotion_full_diamond";
 var repoLink = repoLinkJsDeliver;

@@ -1,6 +1,6 @@
 var repoVersion = "23oct"
 var repoLinkJsDeliver = "https://cdn.jsdelivr.net/gh/ghaithlab/jslibs@" + repoVersion + "/uploads/emotion_full_diamond";
-var repoLinkGH = "https://raw.githubusercontent.com/ghaithlab/jslibs/"+  repoVersion +"/uploads/emotion_full_diamond";
+var repoLinkGH = "https://raw.githubusercontent.com/ghaithlab/jslibs/"+  repoVersion +"uploads/emotion_full_diamond";
 var repoLink = repoLinkJsDeliver;
 
 

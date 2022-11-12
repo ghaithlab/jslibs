@@ -237,10 +237,7 @@ var images = [
     "watch main231.webp",
     "watch main232.webp",
     "watch main233.webp",
-    "watch main234.webp",
-    "watch main235.webp",
-    "watch main236.webp",
-    "watch main237.webp"];
+    "watch main234.webp",];
 
 var imgs = new Array()
                         
@@ -264,7 +261,7 @@ var imgs = new Array()
                     var controller = new ScrollMagic.Controller();
                     var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 3100})
                                     .setTween(tween)
-                                    .addIndicators() 
+                                    //.addIndicators()//
                                     .addTo(controller);
                     $("form.move input[name=duration]:radio").change(function () {
                         scene.duration($(this).val());
@@ -272,6 +269,9 @@ var imgs = new Array()
         //second section// 
     var images1 = [
 
+    "watch main235.webp",
+    "watch main236.webp",
+    "watch main237.webp",
     "watch main238.webp",
     "watch main239.webp",
     "watch main240.webp",
@@ -346,7 +346,7 @@ imgs = new Array()
                     var controller1 = new ScrollMagic.Controller();
                     var scene1 = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 2600})
                                     .setTween(tween1)
-                                    .addIndicators() 
+                                    //.addIndicators()// 
                                     .addTo(controller1);
                     $("form.move input[name=duration]:radio").change(function () {
                         scene.duration($(this).val());
@@ -485,7 +485,7 @@ imgs = new Array()
                     var controller2 = new ScrollMagic.Controller();
                     var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 1800})
                                     .setTween(tween2)
-                                    .addIndicators() 
+                                    //.addIndicators()// 
                                     .addTo(controller2);
                     $("form.move input[name=duration]:radio").change(function () {
                         scene.duration($(this).val());
@@ -567,7 +567,7 @@ imgs = new Array()
                     var controller3 = new ScrollMagic.Controller();
                     var scene3 = new ScrollMagic.Scene({triggerElement: "#trigger3", duration: 1100})
                                     .setTween(tween3)
-                                    .addIndicators() 
+                                    //.addIndicators() //
                                     .addTo(controller3);
                     $("form.move input[name=duration]:radio").change(function () {
                         scene.duration($(this).val());

@@ -1,4 +1,4 @@
-var repoVersion = "mainSceneNov22"
+var repoVersion = "mainSceneNov26"
 var repoLinkJsDeliver = "https://cdn.jsdelivr.net/gh/ghaithlab/jslibs@" + repoVersion + "/homeScreenSceneNov26/";
 var repoLinkGH = "https://raw.githubusercontent.com/ghaithlab/jslibs/"+  repoVersion +"/homeScreenSceneNov26/";
 var repoLink = repoLinkGH;

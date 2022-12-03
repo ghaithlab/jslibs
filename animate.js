@@ -1,7 +1,7 @@
 var repoVersion = "mainSceneNov26"
 var repoLinkJsDeliver = "https://cdn.jsdelivr.net/gh/ghaithlab/jslibs@" + repoVersion + "/homeScreenSceneNov26/";
 var repoLinkGH = "https://raw.githubusercontent.com/ghaithlab/jslibs/"+  repoVersion +"/homeScreenSceneNov26/";
-var repoLinkCloudinary = "https://res.cloudinary.com/dafltya7l/image/upload/v1670089803/bakkoura-home-animation/";
+var repoLinkCloudinary = "https://res.cloudinary.com/dafltya7l/image/upload/v1670090650/bakkoura-home-animation/";
 var repoLink = repoLinkCloudinary;
 
 var images = [

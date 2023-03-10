@@ -681,7 +681,7 @@ imgs = new Array()
                         
                     for (i = 0; i < images3.length; i++) {
                                 imgs[i] = new Image()
-                                imgs[i].src = repoLink + images3[i]+ "?alt=media";
+                                imgs[i].src = repoLink + images3[i];
                             }
                     var obj3 = {curImg: 0};
                     var tween3 = TweenMax.to(obj3, 5,
@@ -692,7 +692,7 @@ imgs = new Array()
                             immediateRender: true,			
                             ease: Linear.easeNone,			
                             onUpdate: function () {
-                              $("#myimg3").attr("src",repoLink + images3[obj3.curImg]+ "?alt=media");
+                              $("#myimg3").attr("src", images3[obj3.curImg]);
                             }
                         }
                     );

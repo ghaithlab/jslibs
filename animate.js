@@ -2,7 +2,8 @@ var repoVersion = "mainSceneNov26"
 var repoLinkJsDeliver = "https://cdn.jsdelivr.net/gh/ghaithlab/jslibs@" + repoVersion + "/homeScreenSceneNov26/";
 var repoLinkGH = "https://raw.githubusercontent.com/ghaithlab/jslibs/"+  repoVersion +"/homeScreenSceneNov26/";
 var repoLinkCloudinary = "https://res.cloudinary.com/dafltya7l/image/upload/v1670090650/bakkoura-home-animation/";
-var repoLink = repoLinkCloudinary;
+var firebase = "https://firebasestorage.googleapis.com/v0/b/bakkora-3d604.appspot.com/o/bakkoura-home-animation%2F";
+var repoLink = firebase;
 
 var images = [
     "watch-main.webp",    
@@ -243,7 +244,7 @@ var imgs = new Array()
                         
                             for (i = 0; i < images.length; i++) {
                                 imgs[i] = new Image()
-                                imgs[i].src = repoLink + images[i];
+                                imgs[i].src = repoLink + images[i] + "?alt=media";
                             }
                     var obj = {curImg: 0};
                     var tween = TweenMax.to(obj, 5,
@@ -254,7 +255,7 @@ var imgs = new Array()
                             immediateRender: true,			
                             ease: Linear.easeNone,			
                             onUpdate: function () {
-                              $("#myimg").attr("src",repoLink + images[obj.curImg]); 
+                              $("#myimg").attr("src",repoLink + images[obj.curImg]+ "?alt=media"); 
                             }
                         }
                     );
@@ -328,7 +329,7 @@ imgs = new Array()
                         
                             for (i = 0; i < images1.length; i++) {
                                 imgs[i] = new Image()
-                                imgs[i].src = repoLink + images1[i];
+                                imgs[i].src = repoLink + images1[i]+ "?alt=media";
                             }
                     var obj1 = {curImg: 0};
                     var tween1 = TweenMax.to(obj1, 5,
@@ -339,7 +340,7 @@ imgs = new Array()
                             immediateRender: true,			
                             ease: Linear.easeNone,			
                             onUpdate: function () {
-                              $("#myimg1").attr("src",repoLink + images1[obj1.curImg]);
+                              $("#myimg1").attr("src",repoLink + images1[obj1.curImg]+ "?alt=media");
                             }
                         }
                     );
@@ -466,7 +467,7 @@ imgs = new Array()
                         
                             for (i = 0; i < images2.length; i++) {
                                 imgs[i] = new Image()
-                                imgs[i].src = repoLink+ images2[i];
+                                imgs[i].src = repoLink+ images2[i]+ "?alt=media";
                             }
                     var obj2 = {curImg: 0};
                     var tween2 = TweenMax.to(obj2, 5,
@@ -477,7 +478,7 @@ imgs = new Array()
                             immediateRender: true,			
                             ease: Linear.easeNone,			
                             onUpdate: function () {
-                              $("#myimg2").attr("src",repoLink + images2[obj2.curImg]);
+                              $("#myimg2").attr("src",repoLink + images2[obj2.curImg]+ "?alt=media");
                             }
                         }
                     );
@@ -669,7 +670,7 @@ imgs = new Array()
                         
                     for (i = 0; i < images3.length; i++) {
                                 imgs[i] = new Image()
-                                imgs[i].src = repoLink + images3[i];
+                                imgs[i].src = repoLink + images3[i]+ "?alt=media";
                             }
                     var obj3 = {curImg: 0};
                     var tween3 = TweenMax.to(obj3, 5,
@@ -680,7 +681,7 @@ imgs = new Array()
                             immediateRender: true,			
                             ease: Linear.easeNone,			
                             onUpdate: function () {
-                              $("#myimg3").attr("src",repoLink + images3[obj3.curImg]);
+                              $("#myimg3").attr("src",repoLink + images3[obj3.curImg]+ "?alt=media");
                             }
                         }
                     );

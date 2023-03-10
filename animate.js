@@ -255,7 +255,7 @@ var imgs = new Array()
                             immediateRender: true,			
                             ease: Linear.easeNone,			
                             onUpdate: function () {
-                              $("#myimg").attr("src",repoLink + images[obj.curImg]); 
+                              $("#myimg").attr("src",repoLink + images[obj.curImg]+ "?alt=media"); 
                             }
                         }
                     );

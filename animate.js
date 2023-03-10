@@ -681,7 +681,7 @@ imgs = new Array()
                         
                     for (i = 0; i < images3.length; i++) {
                                 imgs[i] = new Image()
-                                imgs[i].src = repoLink + images3[i];
+                                imgs[i].src = images3[i];
                             }
                     var obj3 = {curImg: 0};
                     var tween3 = TweenMax.to(obj3, 5,

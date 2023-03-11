@@ -155,7 +155,7 @@ var imgs = new Array()
                         
                             for (i = 0; i < images.length; i++) {
                                 imgs[i] = new Image()
-                                imgs[i].src = repoLink + images[i];
+                                imgs[i].src =  images[i];
                             }
                     var obj = {curImg: 0};
                     var tween = TweenMax.to(obj, 2,
@@ -166,7 +166,7 @@ var imgs = new Array()
                             immediateRender: true,			
                             ease: Linear.easeNone,			
                             onUpdate: function () {
-                              $("#myimg").attr("src",repoLink + images[obj.curImg]); 
+                              $("#myimg").attr("src", images[obj.curImg]); 
                             }
                         }
                     );
@@ -182,7 +182,7 @@ imgs = new Array()
                         
                             for (i = 0; i < images1.length; i++) {
                                 imgs[i] = new Image()
-                                imgs[i].src = repoLink + images1[i];
+                                imgs[i].src =  images1[i];
                             }
                     var obj1 = {curImg: 0};
                     var tween1 = TweenMax.to(obj1, 5,
@@ -193,7 +193,7 @@ imgs = new Array()
                             immediateRender: true,			
                             ease: Linear.easeNone,			
                             onUpdate: function () {
-                              $("#myimg1").attr("src",repoLink + images1[obj1.curImg]);
+                              $("#myimg1").attr("src", images1[obj1.curImg]);
                             }
                         }
                     );

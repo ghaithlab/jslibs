@@ -2,7 +2,7 @@ var repoVersion = "mainSceneNov14_1"
 var repoLinkJsDeliver = "https://cdn.jsdelivr.net/gh/ghaithlab/jslibs@" + repoVersion + "/single_watch_animations/{{wf {&quot;path&quot;:&quot;github-asset-folder-name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/";
 var repoCloudinary = "https://res.cloudinary.com/dafltya7l/image/upload/v1670093669/single-watch-animations/{{wf {&quot;path&quot;:&quot;github-asset-folder-name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/";
     var repoLink = repoCloudinary;
-
+//zz
 var la_blonde = [
 "https://uploads-ssl.webflow.com/630cdf527ae94a6d2a09155d/640c74e157b7d4cd74c65b15_9_00000000.webp",
 "https://uploads-ssl.webflow.com/630cdf527ae94a6d2a09155d/640c74e157b7d4cd74c65b15_9_00000000.webp",
